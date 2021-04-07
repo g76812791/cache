@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigilCache", "VigilCache\VigilCache.csproj", "{FDFC200A-80EB-47DE-B15E-6A060EBB2CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigilCache.Test", "VigilCache.Test\VigilCache.Test.csproj", "{D993FCE3-2E18-4A65-8DC1-FC08A1F604ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18290BCC-CB10-41AD-B811-7A311A284E3F}"
+	ProjectSection(SolutionItems) = preProject
+		ReleaseToNuget_VigilCache.bat = ReleaseToNuget_VigilCache.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BEC41546-96C8-4EF8-9C9E-9AE603F466C5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigilCache.UnitTest", "VigilCache.UnitTest\VigilCache.UnitTest.csproj", "{DD5A8621-C04F-4832-BF52-C895955A67F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFC200A-80EB-47DE-B15E-6A060EBB2CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFC200A-80EB-47DE-B15E-6A060EBB2CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFC200A-80EB-47DE-B15E-6A060EBB2CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFC200A-80EB-47DE-B15E-6A060EBB2CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D993FCE3-2E18-4A65-8DC1-FC08A1F604ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D993FCE3-2E18-4A65-8DC1-FC08A1F604ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D993FCE3-2E18-4A65-8DC1-FC08A1F604ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D993FCE3-2E18-4A65-8DC1-FC08A1F604ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5A8621-C04F-4832-BF52-C895955A67F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5A8621-C04F-4832-BF52-C895955A67F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5A8621-C04F-4832-BF52-C895955A67F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5A8621-C04F-4832-BF52-C895955A67F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vigiltrends.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VigilCache.Test\\VigilCache.Test.csproj
+		SccProjectName1 = VigilCache.Test
+		SccLocalPath1 = VigilCache.Test
+		SccProjectUniqueName2 = VigilCache\\VigilCache.csproj
+		SccProjectName2 = VigilCache
+		SccLocalPath2 = VigilCache
+		SccProjectUniqueName3 = VigilCache.UnitTest\\VigilCache.UnitTest.csproj
+		SccProjectName3 = VigilCache.UnitTest
+		SccLocalPath3 = VigilCache.UnitTest
+	EndGlobalSection
+EndGlobal
